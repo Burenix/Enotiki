@@ -29,7 +29,7 @@ function huh(num) {
   
   img1.sort(() => Math.random() - 0.5);
   img2.sort(() => Math.random() - 0.5);
-  console.log(img2)
+
   for (i = 0; i < 9; i++) {
       img[i].src = img1[i];
   }
